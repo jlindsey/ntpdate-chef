@@ -1,0 +1,11 @@
+DEPENDENCIES
+  ntpdate
+    path: .
+    metadata: true
+
+GRAPH
+  apt (2.3.10)
+  cron (1.3.12)
+  ntpdate (1.0.0)
+    apt (>= 0.0.0)
+    cron (>= 0.0.0)
