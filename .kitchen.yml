@@ -2,6 +2,8 @@
 driver:
   name: docker
 
+test_base_path: spec/integration
+
 provisioner:
   name: chef_solo
 
