@@ -1,5 +1,6 @@
 include_recipe 'apt'
 
+package 'cron'
 package 'ntpdate'
 
 cron "run_ntpdate" do
